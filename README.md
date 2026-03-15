@@ -54,6 +54,7 @@ virt-manager / virt-viewer
         ↓
       KVM (kernel)
 ```
+---
 
 ### Habilitar y arrancar libvirt
 
