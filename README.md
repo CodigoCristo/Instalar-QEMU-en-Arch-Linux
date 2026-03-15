@@ -13,23 +13,23 @@ sudo pacman -S qemu-full qemu-emulators-full virt-manager virt-viewer \
 
 # Stack de Virtualización en Linux
 
-# Paquetes
+## Paquetes
 
-# Virtualización Principal
+### Virtualización Principal
 
 | Paquete | Descripción |
 |---|---|
 | `qemu-full` | Emulador y virtualizador completo. Permite ejecutar máquinas virtuales con distintas arquitecturas (x86, ARM, RISC-V, etc.). Es el núcleo de todo el stack. |
 | `qemu-emulators-full` | Complemento de `qemu-full` que incluye todos los binarios de emulación por arquitectura (`qemu-system-x86_64`, `qemu-system-arm`, etc.). |
 
-# Interfaces Gráficas
+### Interfaces Gráficas
 
 | Paquete | Descripción |
 |---|---|
 | `virt-manager` | Interfaz gráfica de escritorio para gestionar máquinas virtuales a través de libvirt. Permite crear, configurar y controlar VMs con GUI. |
 | `virt-viewer` | Visor gráfico ligero para conectarse a la pantalla de una VM en ejecución (soporta VNC y SPICE). |
 
-# Red
+### Red
 
 | Paquete | Descripción |
 |---|---|
@@ -37,7 +37,7 @@ sudo pacman -S qemu-full qemu-emulators-full virt-manager virt-viewer \
 | `vde2` | Virtual Distributed Ethernet. Permite crear redes virtuales entre VMs y con el host, útil para topologías de red más complejas. |
 | `openbsd-netcat` | Versión de `nc` (netcat). Herramienta de red multipropósito usada internamente por libvirt para túneles y conexiones de gestión remota. |
 
-# Capa de Gestión
+### Capa de Gestión
 
 | Paquete | Descripción |
 |---|---|
@@ -45,7 +45,7 @@ sudo pacman -S qemu-full qemu-emulators-full virt-manager virt-viewer \
 
 ---
 
-# Arquitectura del Stack
+## Arquitectura del Stack
 
 ```
 virt-manager / virt-viewer
