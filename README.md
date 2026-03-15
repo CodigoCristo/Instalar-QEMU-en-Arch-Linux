@@ -68,8 +68,6 @@ Antes de instalar los paquetes dentro de la VM, configura el hardware virtual co
 | `libgl` | Biblioteca OpenGL |
 | `libglvnd` | Dispatcher de OpenGL (permite múltiples implementaciones) |
 
-> `xf86-video-fbdev` **no es necesario** si usas modelo virtio o QXL modernos.
-
 ---
 
 ### 🔵 Arch Linux / Manjaro
