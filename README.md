@@ -44,6 +44,13 @@ virt-manager
 
 ---
 
+### Puedes crear una imagen QEMU con tamaño dinámico (sparse/qcow2) que solo ocupa el espacio real usado
+
+```bash
+qemu-img create -f qcow2 mi-vm.qcow2 25G
+qemu-img info mi-vm.qcow2
+```
+
 ## ⚙️ 2. Configuración de la VM para Aceleración 3D
 
 Antes de instalar los paquetes dentro de la VM, configura el hardware virtual correctamente en **virt-manager**:
