@@ -11,8 +11,6 @@ sudo pacman -S qemu-full qemu-emulators-full virt-manager virt-viewer \
                dnsmasq vde2 openbsd-netcat libvirt
 ```
 
-# Stack de Virtualización en Linux
-
 ## Paquetes
 
 ### Virtualización Principal
