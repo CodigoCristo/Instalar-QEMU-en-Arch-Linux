@@ -1,4 +1,4 @@
-# 🖥️ QEMU/KVM Setup Guide — Arch Linux Host
+# 🖥️ Guía de configuración de QEMU/KVM — Arch Linux
 
 Guía completa para configurar QEMU/KVM con aceleración 3D en Arch Linux, incluyendo los paquetes necesarios dentro de la máquina virtual para distintas distribuciones y Windows.
 
